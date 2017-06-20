@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 
 /* GET api listing. */
 //router.get('/events', apiGeneralController.getEvents);
-
+router.get('/setAuth', apiGeneralController.setAuth);
 //TODO: change these to include access_token, not fbid
 //router.get('/getUser/:fbId/:access_token', userController.getUser);
 //router.post('/eventAction/:actionType/:eventId/:userId/:access_token', apiGeneralController.eventPost);
